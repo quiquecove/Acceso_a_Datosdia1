@@ -34,5 +34,13 @@ public class quijoteWriter {
 	}
 
 }
+	
+	//Metodo fachero
+//	FileWriter escritor = new FileWriter("Quijote.txt");
+//	FileReader lector = new FileReader("Quijote2.txt");
+//
+//	lector.transferTo(escritor);
+//	
+//	escritor.close();
 
 }
