@@ -1,8 +1,5 @@
 package AlumnosCFGS;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -85,11 +82,13 @@ public class AlumnoCFGS implements Serializable {
 		List<AlumnoCFGS> listaAlumnos = new ArrayList<>();
 
 		AlumnoCFGS alumno1 = new AlumnoCFGS("Fer", (byte) 27, (byte) 1, (float) 1.62, false, (long) 8000, "God of War");
-		AlumnoCFGS alumno2 = new AlumnoCFGS("Quique", (byte) 19, (byte) 1, (float) 1.80, false, (long) 0, "My Friend Pedro");
+		AlumnoCFGS alumno2 = new AlumnoCFGS("Quique", (byte) 19, (byte) 1, (float) 1.80, false, (long) 0,
+				"My Friend Pedro");
 		AlumnoCFGS alumno3 = new AlumnoCFGS("Edu", (byte) 23, (byte) 2, (float) 1.75, false, (long) 700, "Skyrim");
 		AlumnoCFGS alumno4 = new AlumnoCFGS("Dani", (byte) 20, (byte) 2, (float) 1.97, false, (long) 2500, "FIFA");
 		AlumnoCFGS alumno5 = new AlumnoCFGS("Dichao", (byte) 23, (byte) 3, (float) 1.65, true, (long) 48, "Overcooked");
-		AlumnoCFGS alumno6 = new AlumnoCFGS("Angel", (byte) 23, (byte) 3, (float) 1.93, false, (long) 2355, "FinalFantasy");
+		AlumnoCFGS alumno6 = new AlumnoCFGS("Angel", (byte) 23, (byte) 3, (float) 1.93, false, (long) 2355,
+				"FinalFantasy");
 
 		listaAlumnos.add(alumno1);
 		listaAlumnos.add(alumno2);
@@ -99,16 +98,15 @@ public class AlumnoCFGS implements Serializable {
 		listaAlumnos.add(alumno6);
 //		File file = new File("fila1.dat");
 //		file.createNewFile();
-ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("fila1.dat"));
-		
- 		for (int i = 0; i < listaAlumnos.size(); i++) {
- 			
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("fila1.dat"));
+
+		for (int i = 0; i < listaAlumnos.size(); i++) {
+
 			System.out.println(listaAlumnos.get(i).toString());
-			
+
 		}
- 		oos.writeObject(listaAlumnos);
- 		
- 	
+		oos.writeObject(listaAlumnos);
+
 	}
 
 	private static String listaAlumnos(int i) {
@@ -130,7 +128,7 @@ ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("fila1.dat"))
 
 	@Override
 	public String toString() {
-		return "AlumnoCFGS:"+"\n"+ "nombre='" + nombre + '\'' + ", edad=" + edad + ", noGrupo=" + noGrupo
+		return "AlumnoCFGS:" + "\n" + "nombre='" + nombre + '\'' + ", edad=" + edad + ", noGrupo=" + noGrupo
 				+ ", alturaAproxEnMetros=" + alturaAproxEnMetros + ", juegaEnConsola=" + juegaEnConsola
 				+ ", horasEnElLOL=" + horasEnElLOL + ", juegoFavorito='" + juegoFavorito + '\'' + '\n';
 	}
