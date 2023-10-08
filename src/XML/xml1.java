@@ -104,8 +104,8 @@ public class xml1 {
 		persona6.appendChild(serieFav6);
 		
 		//////////////////////////
-		 Element personasSeries = document.createElement("PersonasSeries");
-         document.appendChild(personasSeries);
+//		 Element personasSeries = document.createElement("PersonasSeries");
+//         document.appendChild(personasSeries);
 
 //         // Arreglos de nombres y series
 //         String[] nombres = {"Willy", "Dani Guevara", "Mario", "Noah", "Dani Calvo", "Emilio"};
