@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PersonasSeries>
+    <persona>
+        <nombre>Quique</nombre>
+        <serie_favorita>Bojack</serie_favorita>
+    </persona>
+    <persona>
+        <nombre>Fer</nombre>
+        <serie_favorita>Bob Esponja</serie_favorita>
+    </persona>
+    <persona>
+        <nombre>Angel</nombre>
+        <serie_favorita>Sense8</serie_favorita>
+    </persona>
+    <persona>
+        <nombre>Edu</nombre>
+        <serie_favorita>Dora la Explorer</serie_favorita>
+    </persona>
+    <persona>
+        <nombre>Dichao</nombre>
+        <serie_favorita>Mister Robot</serie_favorita>
+    </persona>
+    <persona>
+        <nombre>Dany M</nombre>
+        <serie_favorita>Pocoyo</serie_favorita>
+    </persona>
+</PersonasSeries>
