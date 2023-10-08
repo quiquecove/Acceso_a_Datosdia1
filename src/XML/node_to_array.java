@@ -28,15 +28,14 @@ public class node_to_array {
                     NodeList nameList = persona.getChildNodes();
                     for (int j = 0; j < nameList.getLength(); j++) {
                         Node n = nameList.item(j);
-                        if (n.getNodeType() == Node.ELEMENT_NODE) {
-                            Element nombre = (Element) n;
-                            if (nombre.getNodeName().equals("nombre")) {
-                                System.out.println("Persona: " + nombre.getTextContent());
-                                listNombres.add(nombre.getTextContent());
-                            } else if (nombre.getNodeName().equals("serie_favorita")) {
-                                System.out.println("Serie Favorita: " + nombre.getTextContent());
-                                listSeries.add(nombre.getTextContent());
-                            }
+                        if (n.getNodeType() == Node.ELEMENT_NODE && n.getNodeName().equals("nombre")) {
+                          
+                                System.out.println("Persona: " + n.getTextContent());
+                                listNombres.add(n.getTextContent());
+                        }
+                        else if (n.getNodeType() == Node.ELEMENT_NODE && n.getNodeName().equals("serie_favorita")) {
+                            System.out.println("Serie Favorita: " + n.getTextContent());
+                            listSeries.add(n.getTextContent());
                         }
                     }
                 }
