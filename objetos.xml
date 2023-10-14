@@ -1,0 +1,56 @@
+<ListaObjetos>
+  <XML2.AlumnoCFGS>
+    <nombre>Enrique</nombre>
+    <edad>19</edad>
+    <noGrupo>1</noGrupo>
+    <alturaAproxEnMetros>1.8</alturaAproxEnMetros>
+    <juegaEnConsola>false</juegaEnConsola>
+    <horasEnElLOL>0</horasEnElLOL>
+    <juegoFavorito>animalX</juegoFavorito>
+  </XML2.AlumnoCFGS>
+  <XML2.AlumnoCFGS>
+    <nombre>Fernando</nombre>
+    <edad>27</edad>
+    <noGrupo>1</noGrupo>
+    <alturaAproxEnMetros>1.63</alturaAproxEnMetros>
+    <juegaEnConsola>false</juegaEnConsola>
+    <horasEnElLOL>9000</horasEnElLOL>
+    <juegoFavorito>God Of War</juegoFavorito>
+  </XML2.AlumnoCFGS>
+  <XML2.AlumnoCFGS>
+    <nombre>Dudu</nombre>
+    <edad>23</edad>
+    <noGrupo>2</noGrupo>
+    <alturaAproxEnMetros>1.75</alturaAproxEnMetros>
+    <juegaEnConsola>false</juegaEnConsola>
+    <horasEnElLOL>700</horasEnElLOL>
+    <juegoFavorito>Skyrim</juegoFavorito>
+  </XML2.AlumnoCFGS>
+  <XML2.AlumnoCFGS>
+    <nombre>Dani</nombre>
+    <edad>20</edad>
+    <noGrupo>2</noGrupo>
+    <alturaAproxEnMetros>1.97</alturaAproxEnMetros>
+    <juegaEnConsola>true</juegaEnConsola>
+    <horasEnElLOL>2500</horasEnElLOL>
+    <juegoFavorito>FIFA</juegoFavorito>
+  </XML2.AlumnoCFGS>
+  <XML2.AlumnoCFGS>
+    <nombre>Dichao</nombre>
+    <edad>23</edad>
+    <noGrupo>3</noGrupo>
+    <alturaAproxEnMetros>1.82</alturaAproxEnMetros>
+    <juegaEnConsola>true</juegaEnConsola>
+    <horasEnElLOL>48</horasEnElLOL>
+    <juegoFavorito>Overcooked</juegoFavorito>
+  </XML2.AlumnoCFGS>
+  <XML2.AlumnoCFGS>
+    <nombre>Angel</nombre>
+    <edad>23</edad>
+    <noGrupo>3</noGrupo>
+    <alturaAproxEnMetros>1.93</alturaAproxEnMetros>
+    <juegaEnConsola>true</juegaEnConsola>
+    <horasEnElLOL>2355</horasEnElLOL>
+    <juegoFavorito>Final Fantasy 4</juegoFavorito>
+  </XML2.AlumnoCFGS>
+</ListaObjetos>
